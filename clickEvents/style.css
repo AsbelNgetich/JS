@@ -1,0 +1,36 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+.container {
+  margin-top: 100px;
+  background-color: rgb(41, 230, 97);
+  border-color: 1px solid black;
+  height: 399px;
+  width: 300px;
+}
+
+#red {
+  background-color: red;
+  border: 1px solid black;
+  height: 133px;
+}
+
+#white {
+  background-color: white;
+  border: 1px solid black;
+  height: 133px;
+}
+
+#blue {
+  background-color: blue;
+  border: 1px solid black;
+  height: 133px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  background-color: grey;
+  border: 1px solid rgb(43, 38, 38);
+}
