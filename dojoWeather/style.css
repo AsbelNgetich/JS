@@ -1,0 +1,116 @@
+body {
+  padding: 10px;
+  font-family: "Sniglet", cursive;
+}
+
+.navBar {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 120px;
+  background-color: rgb(66, 164, 230);
+  padding-left: 100px;
+}
+
+.navBar h1 {
+  font-size: 40px;
+}
+
+.navBar ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 100px;
+}
+
+.navBar ul li {
+  font-size: 25px;
+  margin-left: 100px;
+  list-style-type: none;
+}
+
+.city {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.rightCity {
+  display: flex;
+  align-items: center;
+}
+
+.rightCity p {
+  margin-right: 10px;
+}
+
+#line {
+  border: 1px solid black;
+  background-color: black;
+  height: 1px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.forecast {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.days {
+  background-color: lightgrey;
+  height: 300px;
+  width: 200px;
+  border: 1px solid black;
+}
+
+.days img {
+  margin-left: 50px;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.days h2,
+p {
+  display: flex;
+  justify-content: center;
+}
+
+.highTemp {
+  color: red;
+  margin-right: 20px;
+}
+
+.lowTemp {
+  color: rgb(53, 122, 212);
+}
+
+.cookie {
+  position: fixed;
+
+  border: 1px solid black;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.cookie button {
+  margin-top: 30px;
+  background-color: lightseagreen;
+  width: 100px;
+  height: 40px;
+}
+
+.cookie img {
+  width: 40px;
+  height: 40px;
+  margin-top: 30px;
+}
